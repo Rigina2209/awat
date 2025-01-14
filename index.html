@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmailJS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="title">EmailJS</h1>
+
+    <form id="myForm" class="form">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Сообщение:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit" class="btn">Отправить</button>
+    </form>
+    
+    <div id="error-message" style="color: red; display: none;">Пожалуйста, заполните все поля.</div>
+    
+  </body>
+</html>
